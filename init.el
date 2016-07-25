@@ -1,4 +1,4 @@
-;; For Emacs 24.4.1
+;; For Emacs (>= 24.4.1)
 
 ;; 
 (when load-file-name
@@ -14,8 +14,25 @@
     (eval-print-last-sexp)))
 
 ;; Config install-package(for el-get)
-(el-get-bundle swift-mode)
+
+;; Common
 (el-get-bundle auto-complete)
 (el-get-bundle helm)
+
+;; For Swift
+(el-get-bundle swift-mode)
+
+;; For markdown
 (el-get-bundle markdown-mode)
+
+;; For TypeScript
 (el-get-bundle typescript-mode)
+
+;; For Objective-C
+(el-get-bundle objc-mode)
+
+;; For Rust
+(el-get-bundle rust-mode)
+
+;; For ld script
+(el-get-bundle ld-mode)
