@@ -46,6 +46,12 @@
 ;; magit
 (el-get-bundle magit)
 
+;; dockerfile-mode
+(el-get-bundle dockerfile-mode)
+
+;; yaml mode
+(el-get-bundle yaml-mode)
+
 ;;
 ;; For magit config
 ;;
