@@ -38,7 +38,7 @@
 
 ;; ld script
 ;;(el-get-bundle ld-mode :type git :url "https://github.com/spenczar/ld-mode.git")
-(el-get-bundle ld-mode :type http :url "http://opensource.apple.com//source/emacs/emacs-84/emacs/lisp/progmodes/ld-script.el?txt")
+(el-get-bundle ld-mode :type http :url "https://opensource.apple.com/source/emacs/emacs-84/emacs/lisp/progmodes/ld-script.el?txt")
 
 ;; erlang
 (el-get-bundle erlang-mode)

@@ -1,0 +1,8 @@
+# el-get
+el-get/*
+
+# elpa
+elpa/*
+
+# ac-comphist.dat
+ac-comphist.dat
